@@ -8,8 +8,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      KBUILD_BUILD_USER: NATO66613
-      KBUILD_BUILD_HOST: KREMLIN
+      KBUILD_BUILD_USER: VOXELSY-BUILDBOT
+      KBUILD_BUILD_HOST: UBUNTU
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
